@@ -2,6 +2,7 @@
 using namespace std;
 
 //在上世纪 90 年代，多数浮点数操作的速度更是远远滞后于整数操作。所以，这段代码所带来的作用是非常大的。
+//高效求平方根倒数
 float Q_rsqrt(float number)
 {
     long i;
